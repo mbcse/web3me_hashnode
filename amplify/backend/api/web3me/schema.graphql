@@ -1,0 +1,30 @@
+type Users @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  signature: String
+  NftTransferData: NftTransferData @hasOne
+  TokenTransferData: TokenTransferData @hasOne
+  TokenData: TokenData @hasOne
+  NftData: NftData @hasOne
+  address: String
+}
+
+type NftTransferData @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  data: AWSJSON
+}
+
+type TokenTransferData @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  data: AWSJSON
+}
+
+type TokenData @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  data: AWSJSON
+}
+
+type NftData @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  data: AWSJSON
+}
+ 

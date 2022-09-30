@@ -1,15 +1,35 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-web3me-staging-205206-authRole",
-      "UnauthRoleArn": "arn:aws:iam::501573615681:role/amplify-web3me-staging-205206-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::501573615681:role/amplify-web3me-staging-205206-authRole",
+      "AuthRoleName": "amplify-web3me-staging-150244-authRole",
+      "UnauthRoleArn": "arn:aws:iam::501573615681:role/amplify-web3me-staging-150244-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::501573615681:role/amplify-web3me-staging-150244-authRole",
       "Region": "ap-south-1",
-      "DeploymentBucketName": "amplify-web3me-staging-205206-deployment",
-      "UnauthRoleName": "amplify-web3me-staging-205206-unauthRole",
-      "StackName": "amplify-web3me-staging-205206",
-      "StackId": "arn:aws:cloudformation:ap-south-1:501573615681:stack/amplify-web3me-staging-205206/94306820-4038-11ed-92a5-02c99d28cf96",
-      "AmplifyAppId": "d1m75qx2yxxaob"
+      "DeploymentBucketName": "amplify-web3me-staging-150244-deployment",
+      "UnauthRoleName": "amplify-web3me-staging-150244-unauthRole",
+      "StackName": "amplify-web3me-staging-150244",
+      "StackId": "arn:aws:cloudformation:ap-south-1:501573615681:stack/amplify-web3me-staging-150244/f0975c20-40d0-11ed-9cbb-02590ff72644",
+      "AmplifyAppId": "d2xxb5dodjhup"
+    },
+    "categories": {
+      "function": {
+        "web3me5ee1c480": {
+          "deploymentBucketName": "amplify-web3me-staging-150244-deployment",
+          "s3Key": "amplify-builds/web3me5ee1c480-6a39354d32336a4b2b44-build.zip"
+        },
+        "nftTransfers": {
+          "deploymentBucketName": "amplify-web3me-staging-150244-deployment",
+          "s3Key": "amplify-builds/nftTransfers-664e4c57616438395241-build.zip"
+        },
+        "tokenTransfers": {
+          "deploymentBucketName": "amplify-web3me-staging-150244-deployment",
+          "s3Key": "amplify-builds/tokenTransfers-6f72515a374d2b306c38-build.zip"
+        },
+        "nativeTransactions": {
+          "deploymentBucketName": "amplify-web3me-staging-150244-deployment",
+          "s3Key": "amplify-builds/nativeTransactions-354b452f475073417a74-build.zip"
+        }
+      }
     }
   }
 }

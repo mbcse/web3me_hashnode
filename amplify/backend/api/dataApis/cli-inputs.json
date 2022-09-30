@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "paths": {
+    "/me/transfers/native/{chain}/{address}": {
+      "name": "/me/transfers/native/{chain}/{address}",
+      "lambdaFunction": "nativeTransactions",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "web3me5ee1c480",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/me/transfers/nft/{chain}/{address}": {
+      "name": "/me/transfers/nft/{chain}/{address}",
+      "lambdaFunction": "nftTransfers",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/me/transfers/token/{chain}/{address}": {
+      "name": "/me/transfers/token/{chain}/{address}",
+      "lambdaFunction": "tokenTransfers",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
